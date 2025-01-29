@@ -71,7 +71,7 @@ header {
     margin-top: 20px;
 }
 
-.btn {
+.button {
     display: inline-block;
     padding: 12px 24px;
     border-radius: 5px;
@@ -81,23 +81,23 @@ header {
     transition: 0.3s;
 }
 
-.btn.primary {
+.button.primary {
     background: rgb(0, 229, 255);
     color: black;
     font-weight: bold;
     box-shadow: 0 0 10px rgb(0, 229, 255);
 }
 
-.btn.primary:hover {
+.button.primary:hover {
     background: rgb(0, 229, 255);
 }
 
-.btn.secondary {
+.button.secondary {
     border: 2px solid rgb(0, 229, 255);
     color: rgb(0, 229, 255);
 }
 
-.btn.secondary:hover {
+.button.secondary:hover {
     background: rgb(0, 229, 255);
     color: black;
 }
