@@ -45,6 +45,30 @@ header {
     border-radius: 5px;
 }
 
+.prihlaseni {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.prihlaseni li {
+    display: inline-block;
+}
+
+.prihlaseni a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 16px;
+    transition: 0.3s;
+}
+
+.prihlaseni a:hover {
+    background: rgb(0, 229, 255);
+    color: black;
+    border-radius: 5px;
+}
+
 
 .banner-text {
     position: absolute;
@@ -52,7 +76,6 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 .banner-text h1 {
@@ -85,7 +108,6 @@ header {
     background: rgb(0, 229, 255);
     color: black;
     font-weight: bold;
-    box-shadow: 0 0 10px rgb(0, 229, 255);
 }
 
 .button.primary:hover {
@@ -101,3 +123,5 @@ header {
     background: rgb(0, 229, 255);
     color: black;
 }
+
+
