@@ -218,6 +218,7 @@ header {
     color: var(--primary-color);
 }
 
+
 .bottom {
     display: flex;
     justify-content: space-between;
@@ -247,3 +248,5 @@ header {
 .bottom.menu a:hover {
     color: var(--text-color);
 }
+
+
