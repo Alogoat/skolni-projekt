@@ -97,7 +97,7 @@ header {
     background-image: url('img/banner1.jpg');
     background-size: cover;
     background-position: center;
-    background-color: #333; 
+    background-color: black; 
     transition: all .5s;
     opacity: 0.2;
 }
@@ -218,3 +218,32 @@ header {
     color: var(--primary-color);
 }
 
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid grey;
+    font-size: 14px;
+    color: grey;
+}
+
+.bottom .logo img {
+    height: 40px;
+}
+
+.bottom.menu {
+    gap: 10px; 
+    border-top: none;
+}
+
+.bottom.menu a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.bottom.menu a:hover {
+    color: var(--text-color);
+}
