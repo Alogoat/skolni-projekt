@@ -3,9 +3,15 @@
     margin: 0 auto;
 }
 
+:root {
+    --primary-color: rgb(0, 229, 255);
+    --bg-color: black;
+    --text-color: white;
+}
+
 body {
-    background-color: #0b0b0f;
-    color: white;
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -14,7 +20,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid white;
 }
 
 .logo img {
@@ -33,14 +39,14 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
     font-size: 16px;
     padding: 10px 16px;
     transition: 0.3s;
 }
 
 .menu a:hover {
-    background: rgb(0, 229, 255);
+    background: var(--primary-color);
     color: black;
     border-radius: 5px;
 }
@@ -57,14 +63,14 @@ header {
 
 .prihlaseni a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
     font-size: 16px;
     padding: 10px 16px;
     transition: 0.3s;
 }
 
 .prihlaseni a:hover {
-    background: rgb(0, 229, 255);
+    background: var(--primary-color);
     color: black;
     border-radius: 5px;
 }
@@ -103,7 +109,7 @@ header {
 .banner-text h1 {
     font-size: 64px;
     font-weight: bold;
-    color: rgb(0, 229, 255); 
+    color: var(--primary-color);
     text-transform: uppercase;
 }
 
@@ -128,22 +134,22 @@ header {
 
 
 .button.primary {
-    background: rgb(0, 229, 255);
+    background: var(--primary-color);
     color: black;
     font-weight: bold;
 }
 
 .button.primary:hover {
-    background: rgb(0, 229, 255);
+    background: var(--primary-color);
 }
 
 .button.secondary {
-    border: 2px solid rgb(0, 229, 255);
-    color: rgb(0, 229, 255);
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .button.secondary:hover {
-    background: rgb(0, 229, 255);
+    background: var(--primary-color);
     color: black;
 }
 
@@ -158,7 +164,7 @@ header {
     text-align: center;
 }
 .highlight {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .popisek {
@@ -189,26 +195,26 @@ header {
 }
 
 .SVG1 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .SVG2 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .SVG3 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .SVG4 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .SVG5 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
 .SVG6 {
-    color: rgb(0, 229, 255);
+    color: var(--primary-color);
 }
 
