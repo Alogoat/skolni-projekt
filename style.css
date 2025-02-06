@@ -219,6 +219,30 @@ header {
 }
 
 
+.btn {
+	padding: 20px 30px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+.cta {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.theme-primary .btn {
+	background-color: var(--primary-color);
+	color: black;
+}
+
+.theme-primary .btn:hover{
+    border: 2px solid white;
+    color: black;
+}
+
 .bottom {
     display: flex;
     justify-content: space-between;
