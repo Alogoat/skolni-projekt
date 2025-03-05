@@ -77,15 +77,15 @@
 
   <div class="services">
     <div class="container2">
-        <img class="flexbox-img" src="img/securemain.jpg" alt="randomimage">
+        <img class="flexbox-img" src="img/logo1.png"  alt="Undetectable & Secure image">
         <p><h4>Undetectable & Secure</h4> Lusive is designed with advanced security measures to minimize detection risks and bans.🛡️</p>
     </div>
     <div class="container2 container2-reverse">
-      <img class="flexbox-img" src="img/logo1.png" alt="randomimage2">
+      <img class="flexbox-img" src="img/logo1.png"  alt="Regular Updates image">
       <p><h4>Regular Updates</h4> We continuously adapt our cheats to keep them functional and up-to-date with game changes.🔁</p>
   </div>
   <div class="container2">
-      <img class="flexbox-img" src="img/logo1.png" alt="randomimage3">
+      <img class="flexbox-img" src="img/logo1.png"  alt="High Performance image">
       <p><h4>High Performance</h4> Optimized to ensure smooth gameplay without FPS drops or lags.🚀</p>
   </div>
   </div>
@@ -93,6 +93,8 @@
   <div class="cta theme-primary">
     <button class="btn">Get Lusive</button>
 </div>
+
+
 
 <div class="bottom">
   <div class="logo">
@@ -105,6 +107,31 @@
       <li><a href="#">Privacy Policy</a></li>
       <li><a href="#">Discord</a></li>
     </ul>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d462.11857933645115!2d17.470123108722955!3d49.065021939378845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47131448ae70abf7%3A0x9240f0d4c6ae!2sLechova%20690%2C%20686%2001%20Uherské%20Hradiště%201!5e0!3m2!1scs!2scz!4v1741180472523!5m2!1scs!2scz" width="50%" height="50%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<script>
+  const themeSwitch = document.querySelector('.theme-switch');
+
+  themeSwitch.addEventListener('click', () => {
+
+      //když má tlačítko třídu dark, tak ji odebereme a naopak
+      if (themeSwitch.classList.contains('dark')) {
+
+          themeSwitch.classList.remove('dark');
+          document.body.classList.remove('dark-theme');
+
+      } else {
+
+          themeSwitch.classList.add('dark');
+          document.body.classList.add('dark-theme');
+
+      }
+
+  });
+
+</script>
 </div>
 
   </body>
