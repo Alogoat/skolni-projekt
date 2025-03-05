@@ -243,7 +243,26 @@ header {
     color: black;
 }
 
+.container2 {
+    margin: 20px auto;
+    padding: 30px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: row;
+    align-content: center;
+    border: 2px solid var(--primary-color);
+    gap: 40px;
+}
 
+.container2-reverse {
+    flex-direction: row-reverse;
+}
+
+.flexbox-img {
+    width: 30%;
+    height: 30%;
+}
 
 .bottom {
     display: flex;
