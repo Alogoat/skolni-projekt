@@ -246,12 +246,12 @@ header {
 .container2 {
     margin: 20px auto;
     padding: 30px;
-    width: 600px;
+    width: 800px;
     display: flex;
     align-items: center;
     justify-content: row;
     align-content: center;
-    border: 2px solid var(--primary-color);
+    border: 4px solid var(--primary-color);
     gap: 40px;
 }
 
@@ -260,8 +260,8 @@ header {
 }
 
 .flexbox-img {
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
 }
 
 .bottom {
